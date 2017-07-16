@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerWeek3HW", "DockerWeek3HW\DockerWeek3HW.csproj", "{FE1A0FE9-473A-4E52-8F8B-DBF80F6E3C63}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8FCE9FFE-FB65-493B-BE0F-A77899F7D92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerWeek3API", "DockerWeek3API\DockerWeek3API.csproj", "{63770BDD-048F-4F17-ABBB-D0D1C884BA30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE1A0FE9-473A-4E52-8F8B-DBF80F6E3C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1A0FE9-473A-4E52-8F8B-DBF80F6E3C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1A0FE9-473A-4E52-8F8B-DBF80F6E3C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1A0FE9-473A-4E52-8F8B-DBF80F6E3C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCE9FFE-FB65-493B-BE0F-A77899F7D92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCE9FFE-FB65-493B-BE0F-A77899F7D92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCE9FFE-FB65-493B-BE0F-A77899F7D92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCE9FFE-FB65-493B-BE0F-A77899F7D92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63770BDD-048F-4F17-ABBB-D0D1C884BA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63770BDD-048F-4F17-ABBB-D0D1C884BA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63770BDD-048F-4F17-ABBB-D0D1C884BA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63770BDD-048F-4F17-ABBB-D0D1C884BA30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

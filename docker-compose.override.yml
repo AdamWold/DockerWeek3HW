@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  dockerweek3hw:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  dockerweek3api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

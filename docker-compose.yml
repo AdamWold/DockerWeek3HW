@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  dockerweek3hw:
+    image: dockerweek3hw
+    build:
+      context: ./DockerWeek3HW
+      dockerfile: Dockerfile
+
+  dockerweek3api:
+    image: dockerweek3api
+    build:
+      context: ./DockerWeek3API
+      dockerfile: Dockerfile
